@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    background: url('https://www.transparenttextures.com/patterns/old-mathematics.png'), linear-gradient(to bottom, #f4e1c6, #d8b384);
+    color: #5a3e2b;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header {
+    background: url('IMG/Screenshot\ 2025-03-19\ 154502.png') center/cover no-repeat;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 26px; /* Slightly bigger */
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive; /* Stylish poetic font */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@500;700&display=swap');
+
+/* About Writer Section */
+.about h2 {
+    font-size: 42px; /* Bigger heading */
+    font-family: 'Great Vibes', cursive; /* Stylish cursive font */
+    text-align: center;
+    color: #5a3e2b;
+}
+
+.about p {
+    font-size: 24px; /* Bigger text */
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    line-height: 1.6;
+    text-align: center;
+    color: #7a5230;
+}
+
+/* Contact Section */
+.contact h2 {
+    font-size: 42px; /* Bigger heading */
+    font-family: 'Great Vibes', cursive; /* Stylish cursive font */
+    text-align: center;
+    color: #5a3e2b;
+}
+
+.contact p {
+    font-size: 24px; /* Bigger text */
+    font-family: 'Dancing Script', cursive; /* Flowing, handwritten style */
+    text-align: center;
+    color: #7a5230;
+}
+
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.hero .btn, 
+.contact .btn {
+    display: inline-block;
+    background: #8c5b3c;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero .btn:hover, 
+.contact .btn:hover {
+    background: #6a422c;
+}
+
+.poems {
+    padding: 30px 20px;
+}
+
+.poem-card {
+    background: rgba(255, 245, 230, 0.9);
+    padding: 20px;
+    margin: 15px auto;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.poem-card:hover {
+    transform: scale(1.05);
+}
+
+.about, .contact {
+    padding: 30px 20px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 245, 230, 0.9);
+    border-top: 2px solid #8c5b3c;
+}
